@@ -1,0 +1,277 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.merriweather-normal {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* Main style */
+main{
+    margin: 50px 140px 0px;  
+   
+}
+main section{
+    margin-bottom:120px;
+}
+/* shared sytle */
+.btn-primary{
+    background-color: #FF0000;
+    color: white;
+    padding:16px 32px;
+    font-size:20px;
+    font-weight: 800px;
+    border: none;
+    border-radius:8px;
+}
+.optional-btn{
+    text-align: center;
+    margin-top:48px;
+}
+.btn-secondary{
+    font-size:20px;
+    font-weight:800px;
+    color:#ffffff;
+   background:transparent;
+   /* cursor: progress; */
+   padding:10px 20px;
+   opacity:1;
+}
+/* New Years style start */
+.new-year{
+ background-image:url(../images/Banner\ Image.png);
+ background-size:cover;
+ padding:344px 200px;
+ border-radius: 16px;
+ /* margin:30px 100px 0px; */
+background: linear-gradient(0.deg, rgba(7, 2, 17, 1),rgba(7, 2, 17, 0) 100%);
+/* margin-bottom:120px; */
+}
+h4{
+    text-align: center;
+   color: rgba(255, 255, 255, 1);
+   font-size:32px;
+   font-weight:400px;
+}
+h1{
+    text-align:center;
+    font-size:72px;
+    font-weight:900;
+    color: rgb(255, 255, 255,1);
+}
+  /* 65% offer section Start */
+  .offer{
+    background-color: rgb(253, 255, 255);
+    margin:0px 399px;
+    margin-bottom:120px;
+ 
+  }
+.offer-title{
+    font-size:88px;
+    font-weight:700px;
+    color: rgba(255, 0, 0, 1);
+    margin-bottom:48px;
+    
+}
+.offer-sub-title{
+    font-size:24px;
+    font-weight:500px;
+color: rgba(255, 0, 0,1);
+margin-bottom:15px;
+}
+.offter-categories{
+    font-size:48px;
+    color: black;
+    font-weight:bold;
+    text-align: center;
+    margin-bottom:15px;
+}
+.new-year-picture{
+    text-align: center;
+}
+/* Midnight Part section work start  */
+.midnight-party{
+    background-image: url(../images/Vectorrr.png);
+    background-repeat:no-repeat ;
+    background-size:cover;
+    /* background: transparent; */
+    padding:150px;
+    border-radius:10px;
+    box-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.midnight-title{
+    font-size:64px;
+    font-weight:bold;
+    text-align: left;
+    margin-bottom:24px;
+}
+.midnight-party-description{
+    font-size:18px;
+    color:whitesmoke;
+    margin-bottom:32px;
+}
+
+         /*  New Park hotel-section start  */
+  .hotel-deadline{
+         border-radius: 16px;
+        background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+           padding:100px 385px;
+
+         }
+.deadline-title{
+    font-size:27px;
+    font:600px;
+    text-align: center;
+}
+.deadline{
+    color: #FF0000;
+}
+/* New Offer section start */
+.offer-container{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   gap:70px;
+}
+.offer-content{
+   padding:30px;
+}
+.offer-content-image{
+    border:10px solid #FF0000 ;
+    border-radius:50%;
+}
+.best-offer-title{
+    color: #FF0000;
+    font-size:24px;
+    font-weight: 500;
+}
+.best-offer-sub-title{
+    font-size:48px;
+    font-weight:700px;
+    margin-top:15px;
+    margin-bottom:22px;
+}
+.offer-description{
+    font-size:18px;
+    color:rgba(7, 2, 17, 0.6);
+    margin-top:16px;
+    margin-bottom:43px;
+}
+/* 50% Sales container section start  */
+.sales-container{
+    text-align: center;
+}
+.sales-title{
+   font-size:24px;
+   font-weight:600px;
+}
+.sales-sub-title{
+    font-size:72px;
+    font-weight:800px;
+    color:black;
+    margin-top:16px;
+    margin-bottom:28px;
+}
+.span-word{
+    color:#FF0000;
+}
+.sales-discount-image{
+    text-align:right;
+    margin-top:100px;
+}
+.sales-box-image{
+    background-image:url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+   background-position:bottom center;
+   /* background-size:cover; */
+   /* height:100px; */
+  /* position: relative; */
+   
+}
+
+
+/* The best gift section start  */
+.product-content{
+    margin-left:130px;
+    margin-bottom:42px;
+}
+.span-product{
+    color:#FF0000;
+    font-size:24px;
+    font-weight:600px;
+}
+ .product-sub-title{
+    font-size:48px;
+    font-weight:bold;
+    color: black;
+    text-align: left;
+    margin-top:16px;
+    margin-bottom:22px;
+ }
+.product-image{
+    text-align: center;
+
+}
+.product-image img{
+    padding:18px;
+}
+
+/* Subscribe Newsletter */
+.newsletter{
+    background-color:rgba(255, 0, 0, 0.05);
+    padding:80px 0px;
+    border-radius:16px;
+}
+.newsletter-container{
+    text-align: center;
+}
+.newsletter-sub-title{
+    text-align: center;
+    color:black;
+    margin-top:40px;
+    margin-bottom:22px;
+}
+.input-form{
+    text-align:center;
+}
+.input-filled{
+    padding:25px 30px;
+    width:250px;
+    border:none;
+    border-radius:50px;
+}
+.btn-subscribe{
+   /* padding:25px 30px;
+   border-radius:50px; */
+    border:none;
+}
+/* dooter sectioon work start */
+footer{
+    /* margin:0px 140px 0px; */
+     color: white;
+}
+.footer-container{
+ background-color:black;
+ padding:120px 240px  120px  140px;
+}
+.footer-content{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom:50px;
+    margin-top:50px;   
+    
+}
+
+.footer-image{
+    display: flex;
+    justify-content: center;
+    gap:24px;
+    font-size:30px;
+    margin-top:50px;
+    margin-bottom: 50px;
+   
+}
